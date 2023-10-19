@@ -1,0 +1,1321 @@
+body {
+	margin: 0;
+	background-image: url("./images/class-students.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1 {
+	font-family: arial;
+	font-size: 25px;
+}
+
+p {
+	font-family: arial;
+}
+
+a {
+	font-family: arial;
+}
+
+hr {
+	padding: 0;
+	margin: 0;
+}
+
+.p-class {
+	color: #808080;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+}
+
+.middle-navbar, .menu, .awards, .our-programs, .testimonials, .hr {
+	background-color: #ffffff;
+}
+
+.mobile-menu-icon {
+	display: none;
+	background-color: transparent;
+	border: none;
+	font-size: 2rem;
+}
+
+.top-navbar {
+	background-color: #0d6c7f;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2px 70px 2px 90px;
+	font-size: 16px;
+	font-family: arial;
+}
+
+.top-navbar div {
+	display: flex;
+	align-items: center;
+}
+
+.top-navbar > div > a{
+	display: flex;
+	align-items: center;
+	padding: 0 20px 0 0;
+}
+
+
+.top-navbar a {
+	text-decoration: none;
+	color: white;
+	fill: white;
+}
+
+.top-navbar svg {
+	width: 17px;
+}
+
+.top-navbar-contact {
+	display: flex;
+	align-items: center;
+	padding: 0 20px 0 0;
+}
+
+.top-navbar-contact a {
+	display: flex;
+	align-items: center;
+	padding: 0 20px 0 0;
+}
+
+.top-navbar-contact svg {
+	padding: 0 10px 0 0;
+}
+
+
+.top-navbar a:hover {
+	color: #ff6b42;
+	fill: #ff6b42;
+}
+
+
+.middle-navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 90px 11px 90px;
+}
+
+.middle-navbar > div {
+	display: flex;
+	align-items: center;
+}
+
+.middle-navbar img {
+	width: 60px;
+	padding: 0 20px 0 0;
+}
+
+.middle-navbar svg {
+	padding: 0 20px 0 0;
+}
+
+.middle-navbar a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #ff6b42;
+	border: none;
+	border-radius: 50px;
+	padding: 10px 50px 10px 50px;
+	font-size: 18px;
+}
+
+.middle-navbar a:hover {
+	background-color: #0d6c7f;
+}
+
+.menu {
+	position: sticky;
+	top: 0;
+	box-shadow: 5px 10px 15px rgba(0, 0 , 0, 0.2);
+	z-index: 2;
+}
+.menu ul {
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+.menu-items {
+	display:block;
+}
+
+.menu-items ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	
+}
+
+.menu a {
+	color: #505050;
+	text-decoration: none;
+	padding: 0 10px 0 0;
+	font-size: 18px;
+}
+
+.menu a:hover {
+	font-weight: bold;
+	color: #ff6b42;
+}
+
+.menu a:active {
+	font-weight: bold;
+	color: #ff6b42;
+}
+
+
+
+.teacher-student {
+    background-image: url("./images/teacher-student1.jpg");
+    background-repeat: no-repeat;
+    height: 100%;  
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    padding: 0 80px; 
+	overflow: hidden;
+	background-position: center center;
+}
+
+.teacher-student-overlay {
+    background-color: rgba(13, 108, 127, 0.6); 
+    position: relative;
+    color: white;
+    padding: 20px;
+	width: 50%;
+	min-width: 440px;
+	
+}
+
+.teacher-student-overlay h1 {
+    font-size: 3rem;
+    padding: 0;
+}
+
+.teacher-student-overlay p {
+    font-size: 1.5rem;
+}
+
+.overlay-links {
+		display: flex;
+		flex-wrap: wrap;
+		width: auto;
+	}
+	
+.apply, .explore {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.apply {
+    background-color: #ff6b42;
+    padding: 15px 50px;
+}
+
+.explore {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 50px;
+}
+
+
+
+
+.apply:hover {
+	background-color: white;
+	border: solid 2px #ff6b42;
+	color: #ff6b42;
+}
+.explore:hover {
+	background-color: #ff6b42;
+}
+
+.awards {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 80px 50px 80px 50px;
+}
+
+.awards img {
+	max-height: 50px;
+	
+}
+
+.awards > div{
+	display: flex;
+	width: 30%;
+}
+
+.awards strong {
+	font-size: 1.3rem;
+	color: #0d6c7f;
+}
+
+.awards p{
+	color: #808080;
+	padding: 0 0 0 15px;
+}
+
+.about {
+	background-color: #f5f9fa;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 100px 0 100px 0;
+}
+
+.about > div{
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+
+.about img {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+/*.about img {
+	width: 40%;
+}*/
+
+.about p{
+	color: #808080;
+	font-size: 1.2rem;
+	line-height: 2.5rem;
+	padding: 0 0 20px 0
+}
+
+.about h1{
+	font-size: 3rem;
+}
+
+
+.about-link {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #ff6b42;
+	border: none;
+	border-radius: 50px;
+	padding: 15px 40px 15px 40px;
+	margin: 20px 0 0 0;
+	font-size: 18px;
+}
+
+.about-link:hover {
+	background-color: white;
+	border: solid 2px #ff6b42;
+	color: #ff6b42;
+}
+
+.glance {
+	background-color: #0d6c7f;
+	height: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.glance > div {
+	background-color: #0d6c7f;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 96%;
+}
+
+.glance p {
+	font-size: 1.2rem;
+}
+
+.glance h1 {
+	font-size: 2.55rem;
+}
+
+.glance-cards {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	width: 100%;
+	padding: 0 1%;
+}
+
+.glance-cards-inner {
+	width: 24%;
+	background-color: #478f9e;
+	margin: 50px 0 0 2px;
+}
+
+.glance-cards-inner h1 {
+	font-size: 2.5rem;
+}
+
+.glance-cards-inner p {
+	font-size: 1.3rem;
+}
+
+.our-programs > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.program-desc {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 0 0 20px;
+}
+
+.program-desc h1 {
+	font-size: 2.5rem;
+	line-height: 1rem;
+}
+
+.program-desc p {
+	font-size: 1.2rem;
+	color: #808080;
+}
+
+.our-programs {
+	padding: 100px 0 100px 0;
+}
+
+/*.our-programs img {
+	width: 380px;
+}
+*/
+
+.our-programs a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #ff6b42;
+	border: none;
+	border-radius: 50px;
+	padding: 15px 40px 15px 40px;
+	margin: 50px 0 0 0;
+	font-size: 18px;
+}
+
+.our-programs a:hover {
+	background-color: white;
+	border: solid 2px #ff6b42;
+	color: #ff6b42;
+}
+
+.students {
+	width: 100%;
+}
+
+.students img {
+	width: 100%;
+}
+
+
+.students > div {
+	margin: 0 0 0 20px;
+	width: 29%;
+}
+
+.students h1 {
+	position: relative;
+	background-color: #00000080;
+	width: 100%;
+	margin: -55px 0 0 0;
+	padding: 15px 0 15px 10px;
+	color: #ffffff;
+	width: 99%;
+}
+
+.world-class {
+	background-color: #0d6c7f;
+	padding: 100px 0px 100px 0px;
+	background-color: #0d6c7f;
+}
+
+.world-class > div > h1{
+	text-align: center;
+	color: #ffffff;
+	font-size: 2.5rem;
+}
+
+.world-class > div > p {
+	text-align: center;
+	color: #ffffff;
+	font-size: 1.2rem;
+	margin: 0 0 50px 0;
+}
+
+.world-class-cards > div {
+	background-color: #ffffff;
+}
+
+.world-class-cards {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 30% 30% 30%;
+	gap: 2%;
+	justify-content: center;
+}
+
+.world-class-card {
+	padding: 25px;
+}
+
+.world-class-card p {
+	font-size: 1.2rem;
+	color: #808080;
+}
+
+.testimonials {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+	padding: 50px 0 100px 0;
+}
+
+.testimonials p {
+	font-size: 1.2rem;
+	color: #808080;
+}
+
+.testimonials > div > h1 {
+	font-size: 2.5rem;
+}
+
+.testimonials > div > p {
+	font-size: 1.2rem;
+	margin: 0 0 60px 0;
+}
+
+.testimonial {
+	width: 60%;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+	
+}
+
+.testimonial-slide {
+	padding: 5%;
+	background-color: #f5f9fa;
+	flex: 0 0 90%;
+	animation: moveSlides 15s linear infinite;
+	justify-content: space-evenly;
+}
+
+
+@keyframes moveSlides {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  23% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  48% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  73% {
+    transform: translateX(-200%);
+  }
+  
+  75% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+
+.testimonial > div > div > p {
+	text-align: center;
+}
+
+#p-opa1, #p-opa2, #p-opa3, #p-opa4 {
+	opacity: 0.5;
+	font-size: 1rem;
+}
+
+.profile {
+	display: flex;
+	justify-content: center;
+}
+
+.profile img {
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	margin: 0 20px 0 0;
+}
+
+
+.class-students {
+	position: fixed;
+	z-index: 10;
+	height: 100vh;
+}
+
+.class-students img {
+	position: fixed;
+	z-index: 1;
+	height: 100vh;
+}
+
+.empty {
+	background-color: none;
+	height: 500px;
+}
+
+
+.enroll {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	padding: 0 0 0 7%;
+}
+
+.enroll > div {
+	height: 50%;
+	width: 35%;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	padding: 0 5% 5% 5%;
+	
+}
+
+
+.enroll h1 {
+	font-size: 2.5rem;
+	padding: 0 0 20px 0;
+}
+
+.enroll a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #ff6b42;
+	border: none;
+	border-radius: 50px;
+	padding: 18px 30px 18px 30px;
+	font-size: 18px;
+	
+}
+
+.enroll a:hover {
+	background-color: white;
+	border: solid 2px #ff6b42;
+	color: #ff6b42;
+}
+
+.events {
+	background-color: #ffffff;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.events h2{
+	font-size: 3rem;
+	padding: 0;
+	line-height: 0.8rem;
+}
+
+.events > p {
+	padding: 0 0 80px 0;
+}
+
+.events p {
+	color: #808080;
+	font-size: 1.3rem;
+}
+
+.events > div {
+	
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.events a, .events h1, .events h2, .events h3, .events p{
+	font-family: arial;
+	
+}
+
+.events a {
+	color: #ff6b42;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.events a:hover {
+	color: #0d6c7f;
+}
+
+.events > div > div {
+	width: 40%;
+
+}
+
+.cal {
+	display: flex;
+	align-items: center;
+}
+
+.cal h3 {
+	line-height: 0.9rem;
+}
+
+.cal img {
+	display: flex;
+	padding: 0 15px 0 0;
+}
+
+.clo {
+	display: flex;
+	align-items: center;
+}
+
+.clo img {
+	height: 20px;
+	padding: 0 10px 0 0;
+}	
+
+.clo p {
+	padding: 0 10px 0 0;
+	font-size: 0.9rem;
+}
+
+.view {
+	margin: 50px 0 0 0;
+}
+
+.view a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #ff6b42;
+	border: none;
+	border-radius: 50px;
+	padding: 15px 50px 15px 50px;
+	font-size: 18px;
+	
+}
+
+.our-teachers {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f5f9fa;
+	padding: 100px 0;
+}
+
+.our-teachers a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #ff6b42;
+	border: none;
+	border-radius: 50px;
+	padding: 15px 50px 15px 50px;
+	font-size: 18px;
+	
+}
+
+.our-teachers a:hover {
+	background-color: white;
+	border: solid 2px #ff6b42;
+	color: #ff6b42;
+}
+
+.our-teachers h1 {
+	font-size: 2.5rem;
+	line-height: 0.2rem;
+}
+
+.our-teachers > p {
+	font-size: 1.2rem;
+	color: #808080;
+	padding: 0 0 50px 0;
+}
+
+.our-teachers-cards {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(4, 20%);
+	justify-content: center;
+	gap: 2%;
+	margin: 0 0 100px 0;
+}
+
+.teacher-card img {
+	width: 100%;
+}
+
+.teacher-card {
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.teacher-card p {
+	color: #808080;
+	font-family: arial;
+}
+
+.teacher-card h3 {
+	font-family: arial;
+	line-height: 0;
+}
+
+.view-all-teachers {
+	margin: 10px 0 0 0;
+}
+
+
+
+.latest-news {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ffffff;
+	padding: 100px 0;
+}
+
+.latest-news a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #ff6b42;
+	border: none;
+	border-radius: 50px;
+	padding: 15px 50px 15px 50px;
+	font-size: 18px;
+	
+}
+
+.latest-news a:hover {
+	background-color: white;
+	border: solid 2px #ff6b42;
+	color: #ff6b42;
+}
+
+.latest-news h1 {
+	font-size: 2.5rem;
+	line-height: 0.2rem;
+	padding: 0 0 50px 0;
+}
+
+
+.news-cards {
+	width: 100%;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(3, 27%);
+	justify-content: center;
+	gap: 2%;
+	margin: 0 0 100px 0;
+}
+
+.news-card img {
+	width: 100%;
+}
+
+.news-card {
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.news-card p {
+	color: #808080;
+	font-family: arial;
+}
+
+.news-card h3 {
+	font-family: arial;
+	line-height: 0;
+}
+
+.view-all-news {
+	margin: 10px 0 0 0;
+}
+
+.start {
+	background-color: #0d6c7f;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5%;
+	color: #ffffff;
+}
+
+.start h1{
+	font-family: arial;
+	font-size: 2.5rem;
+}
+
+.se {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.study {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #ff6b42;
+	border: none;
+	border-radius: 50px;
+	padding: 15px 50px 15px 50px;
+	font-size: 18px;	
+}
+
+.study:hover {
+	background-color: white;
+	border: solid 2px #ff6b42;
+	color: #ff6b42;
+}
+
+
+.enquire {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: none;
+	border: solid #ffffff 2px;
+	border-radius: 50px;
+	padding: 15px 50px 15px 50px;
+	font-size: 18px;
+}
+
+.enquire:hover {
+	background-color: #ff6b42;
+	color: #ffffff;
+}
+
+.footer {
+	color: #ffffff;
+	background-color: 171d1f;
+	padding: 10px 80px 10px 80px;
+	font-family: arial;
+}
+
+.footer a {
+	color: #ffffff;
+	fill: #ffffff;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: #ff6b42;
+	fill: #ff6b42;
+}
+
+.footer-div1  {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 20px 0;
+}
+
+
+.menus {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact a {
+	display: flex;
+	align-items: center;
+}
+
+.footer svg {
+	padding: 0 10px 0 0;
+}
+
+.follow-us {
+	display: flex;
+	flex-direction: column;
+}
+
+.copyright  {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.copyright  a {
+	padding: 0 0 0 20px;
+}
+
+@media (max-width: 1000px) {
+
+	header {
+		display: flex;
+		justify-content: space-evenly;
+		background-color: #ffffff;
+		align-items: center;
+	}
+	
+	header hr {
+		display: none;
+	}
+	
+	.top-navbar {
+		display: none;
+	}
+	
+	.middle-navbar {
+		padding-left: 0;
+	}
+	
+	div.apply-now {
+		display: none;
+	}
+		
+	.menu {
+		box-shadow: none;
+		margin: 0;
+	}
+	
+	.menu-items ul {
+		position: absolute;
+		left: -250px;
+		background-color: white;
+		display: block;
+		justify-content: center;
+		align-items: center;
+		list-style: none;
+		z-index:1;
+		width: 700%;
+	}
+	
+	.menu-items {
+		display: none;
+	}
+	
+	.mobile-menu-icon {
+		display: block;
+		color: #ff6b42;
+	}
+	
+	.enroll {
+		display: flex;
+		justify-content: center;
+		padding: 3%;
+		height: auto;
+	}
+	
+	.enroll > div {
+		height: auto;
+		width: 90%;
+		background-color: #ffffff;
+		display: flex;
+		align-items: center;
+		padding-bottom: 5%;
+	}
+	
+	.news-cards {
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: repeat(2, 45%);
+	}
+	
+	.news-card {
+		box-shadow: none;
+		display: block;
+	}
+	
+	.news-card img {
+		width; 100%;
+	}
+	
+	.copyright {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	
+}
+
+@media (max-width: 1200px) {
+	.start > div {
+	width: 50%;
+	}
+}
+
+@media (max-width: 768px) {
+	
+	.middle-navbar {
+		padding: 0 0 0 4px;
+	}
+	
+	.teacher-student {
+		padding: 0;
+		height: auto;
+		
+	}
+	
+	.teacher-student-overlay {
+		background-color: rgba(13, 108, 127, 0.6); 
+		position: relative;
+		color: white;
+		padding: 20px 20px 40px 20px;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-width: 0;
+	}
+	
+	.overlay-links a {
+		white-space: nowrap;
+	}
+	
+	
+	
+	.overlay-links > div {
+		margin-bottom: 30px;
+	}
+	
+
+	.awards {
+		display: flex;
+		flex-direction: column;
+		align-items: centre;
+		height: auto;
+		
+	}
+	
+	.awards > div {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 50px;
+	}
+		
+	.awards > div > div {
+		display: flex;
+		flex-direction: column;
+		align-items: centre;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.awards img {
+		height: 60px;
+		width: 50px;
+	}
+	
+	.about {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.about > div {
+		width: 90%;
+		display: block;
+	}
+	
+	.glance {
+		height: auto;
+		width: 100%;
+	}
+	
+	.glance-cards {
+		height: auto;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		color: white;
+		width: 98%;
+		padding: 7% 1% 10% 1%;
+		flex-wrap: wrap;
+	}
+
+	.glance-cards-inner {
+		width: 95%;
+		margin: 1.5% 0;
+	}
+	
+	.program-desc h1 {
+		line-height: 2.5rem;
+	}
+	
+	.students {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 96%;
+	}
+	
+	.students > div {
+		width: 96%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.world-class {
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.world-class-cards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 80%;
+		padding: 2%;
+	}
+	
+	.world-class-card {
+		width: 100%;
+		margin: 2% 0 0 0;
+	}
+	
+	.testimonials {
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.testimonials > div {
+		width: 94%;
+		text-align: center;
+	}
+	
+	
+	
+	.events {
+		height: auto;
+		padding: 5% 0 10% 0;
+	}
+	
+	.events > div {
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.events > div > div {
+		margin: 0 0 5% 0;
+		width: 90%;
+	}
+	
+	.events h2 {
+		line-height: 3rem;
+	}
+	
+	.our-teachers {
+		padding: 5% 1%;
+	}
+	
+	.our-teachers p {
+		padding: 1% 5%;
+		text-align: center;
+	}
+	
+	.our-teachers-cards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 96%;
+	}
+	
+	.teacher-card {
+		width: 100%;
+		margin: 0 0 7% 0;
+	}
+	
+	.news-cards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 96%;
+	}
+	
+	.news-card {
+		width: 100%;
+		margin: 0 0 0 0;
+	}
+	
+	.start {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		height: auto;
+	}
+	
+	.start > div {
+		width: 100%;
+	}
+	
+	.start > div > div {
+		display: block;
+	}
+	
+	.se > div {
+		margin-bottom: 12%;
+	}
+	
+	.footer-div1 {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.footer-div1 > div {
+		margin-bottom: 3%;
+	}
+	
+}
+
+
+
+
+
