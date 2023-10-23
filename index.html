@@ -6,6 +6,21 @@
 	</head>
 	<body>
 		<header>
+
+			<div class="menu-items-mobile">
+				<div class="close">&#10006;</div>
+				<ul class="menu-items-ul">
+					<li><a href="./index.html">Home<a/></li>
+					<li><a href="#">About Us<a/></li>
+					<li><a href="#">Contact<a/></li>
+					<li><a href="#">School Fees<a/></li>
+					<li><a href="#">Result checker<a/></li>
+					<li><a href="#">More<a/></li>
+					<li><a href="#">Register<a/></li>
+					<li><a href="#">Login<a/></li>
+				</ul>
+			</div>
+
 		<div class="top-navbar">
 			<div class="top-navbar-contact">
 				<div>
@@ -51,7 +66,7 @@
 		<div class="menu">
 			<button class="mobile-menu-icon">&#9776;</button>
 			<div class="menu-items">
-				<ul>
+				<ul class="menu-items-ul">
 					<li><a href="./index.html">Home<a/></li>
 					<li><a href="#">About Us<a/></li>
 					<li><a href="#">Contact<a/></li>
@@ -500,18 +515,21 @@
 
 		
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 		<script>
-			$(document).ready(function () {
-				$(".mobile-menu-icon").click(function () {
-					$(".menu-items").slideToggle();
-				});
+
+			$(".mobile-menu-icon").click(function(){
+				$(".menu-items-mobile").css("display", "block");
+			});
+
+			$(".close").click(function(){
+				$(".menu-items-mobile").css("display", "none");
 			});
 		</script>
+
+
 		
-		<script>
-			
-			
-			
+		<script>			
 			// Function to be executed when the div is in the viewport
 			function runCodeWhenVisible(entries, observer) {
 			  entries.forEach(entry => {
