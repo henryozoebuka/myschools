@@ -35,6 +35,43 @@ header {
 	background-color: #ffffff;
 }
 
+
+.menu-items-mobile {
+	display: none;
+	z-index: 3;
+	position: absolute;
+	width: 100%;
+	background-color: #ffffff;
+	padding: 350px 20px 0 20px;
+	margin: 0;
+	font-size: 1.2rem;
+	line-height: 2.5rem;
+}
+
+.close {
+	display: flex;
+	justify-content: end;
+	padding-right: 20px;
+}
+
+.close:hover {
+	color: #ff6b42;
+}
+
+
+.menu-items-mobile ul {
+	list-style: none;
+}
+
+.menu-items-mobile a {
+	text-decoration: none;
+	color: #505050;
+}
+
+.menu-items-mobile a:hover {
+	color: #ff6b42;
+}
+
 .mobile-menu-icon {
 	display: none;
 	background-color: transparent;
@@ -140,6 +177,7 @@ header {
 	box-shadow: 5px 10px 15px rgba(0, 0 , 0, 0.2);
 	z-index: 2;
 }
+
 .menu ul {
 	margin: 0;
 	padding: 20px 0 0 0;
